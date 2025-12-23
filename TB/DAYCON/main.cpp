@@ -11,7 +11,7 @@ int main()
     long long sum[n+5];
     sum[0]=0;
     for(int i=1;i<=n;i++)
-    {
+    { 
         sum[i]=sum[i-1]+a[i];
     }
 
